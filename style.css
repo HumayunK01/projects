@@ -44,7 +44,10 @@ a:active {
 header {
   background: #f6f6f6;
   padding: 10px 0;
-  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48),
+    -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+  position: fixed;
+  width: 100%;
 }
 header img {
   width: 70px;
@@ -60,11 +63,8 @@ header nav a {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
-header nav a i {
-  margin-right: 5px;
-}
 
-header .container nav a .icon {
+header nav a .icon {
   position: relative;
   top: 3px;
 }
@@ -76,13 +76,16 @@ header nav a.active {
 
 /* =========================== MAIN SECTION =========================== */
 main {
-  height: calc(100vh - 205px);
+  min-height: calc(100vh - 80px);
+  padding: 110px 0 80px;
 }
 
 /* =========================== FILTER SECTION =========================== */
 .filters {
   display: flex;
   margin: 30px 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .filters li {
@@ -95,6 +98,7 @@ main {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   transition: all ease 0.2s;
+  margin-bottom: 15px;
 }
 
 .filters li:active {
@@ -106,29 +110,11 @@ main {
   color: white;
 }
 
-.filters li.html:hover {
-  background-color: #e75927;
-  color: #fff;
-  transform: scale(1.1);
-}
-
-.filters li.css:hover {
-  background-color: #288dec;
-  color: #fff;
-  transform: scale(1.1);
-}
-
-.filters li.js:hover {
-  background-color: #fbb93c;
-  color: #fff;
-  transform: scale(1.1);
-}
-
 /* =========================== PROJECTS SECTION =========================== */
 .projects {
   flex-wrap: wrap;
-  margin-bottom: 100px;
 }
+
 .projects .project {
   background: #f6f6f6;
   width: calc(34% - 20px);
@@ -137,12 +123,14 @@ main {
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   border-radius: 7px;
 }
+
 .projects .project img {
   width: 100%;
   display: block;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
 }
+
 .projects .project .content {
   background: #f6f6f6;
   padding: 15px;
@@ -156,7 +144,7 @@ main {
   transition: all ease 0.2s;
 }
 
-.projects .project .icon:hover{
+.projects .project .icon:hover {
   color: #1e56a0;
 }
 
@@ -171,7 +159,37 @@ footer {
 .about-page {
   padding: 100px 0;
 }
+
 .about-page h1 {
   font-weight: 800;
   margin-bottom: 40px;
+}
+
+/* ---------------------------- Tablet Screen ---------------------------- */
+@media only screen and (max-width: 992px) {
+  .projects {
+    padding: 0 10px;
+  }
+}
+
+/* ---------------------------- Mobile Screen ---------------------------- */
+@media only screen and (max-width: 668px) {
+  .projects .project {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  main {
+    min-height: calc(100vh - 147px);
+    padding: 70px 0 80px;
+  }
+
+  header img {
+    width: 40px;
+  }
+
+  header nav a {
+    margin-left: 8px;
+    font-size: 10px;
+  }
 }
