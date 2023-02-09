@@ -44,8 +44,7 @@ a:active {
 header {
   background: #f6f6f6;
   padding: 10px 0;
-  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48),
-    -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48), -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
   position: fixed;
   width: 100%;
 }
@@ -76,7 +75,7 @@ header nav a.active {
 
 /* =========================== MAIN SECTION =========================== */
 main {
-  min-height: calc(100vh - 80px);
+  height: 100vh;
   padding: 110px 0 80px;
 }
 
@@ -148,13 +147,6 @@ main {
   color: #1e56a0;
 }
 
-/* =========================== FOOTER SECTION =========================== */
-footer {
-  background: #f6f6f6;
-  padding: 30px 0;
-  text-align: center;
-}
-
 /* ---------------------------- ABOUT PAGE ---------------------------- */
 .about-page {
   padding: 100px 0;
@@ -183,11 +175,11 @@ footer {
     min-height: calc(100vh - 147px);
     padding: 70px 0 80px;
   }
-
+  
   header img {
     width: 40px;
   }
-
+  
   header nav a {
     margin-left: 8px;
     font-size: 10px;

@@ -1,9 +1,8 @@
 // =========================== VARIABLES ===========================
-const yearEl = document.getElementById("year");
 const projectsEl = document.getElementById("projects");
 const filterEls = document.querySelectorAll("#filters li");
 
-// =========================== PROJECT ===========================
+// =========================== FILTERS ===========================
 for (let i = 0; i < filterEls.length; i++) {
   filterEls[i].addEventListener("click", function (e) {
     document.querySelector("#filters li.active").classList.remove("active");
@@ -13,8 +12,7 @@ for (let i = 0; i < filterEls.length; i++) {
   });
 }
 
-yearEl.innerHTML = new Date().getFullYear();
-
+// =========================== PROJECTS ===========================
 const projects = [
   {
     name: "Favourite Food App",
