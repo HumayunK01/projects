@@ -5,18 +5,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   list-style: none;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 /* =========================== COMMON CSS =========================== */
-body{
-  background-color: #F8F9FF;
+body {
+  background: #d6e4f0;
 }
 
-a{
+a {
   color: #000;
 }
 
@@ -42,49 +42,58 @@ a:active {
 
 /* =========================== HEADER SECTION =========================== */
 header {
-  background: #F8F9FF;
+  background: #f6f6f6;
   padding: 10px 0;
+  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
 }
 header img {
   width: 70px;
   border-radius: 50%;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 header nav a {
   margin-left: 30px;
-  background-color: #F5F5FA;
+  background-color: #f5f5fa;
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 header nav a i {
   margin-right: 5px;
 }
 
-header .container nav a .icon{
+header .container nav a .icon {
   position: relative;
-  top: 2px;
+  top: 3px;
+}
+
+header nav a.active {
+  background: #1e56a0;
+  color: white;
 }
 
 /* =========================== MAIN SECTION =========================== */
 main {
-  min-height: calc(100vh - 145px);
+  height: calc(100vh - 205px);
 }
 
 /* =========================== FILTER SECTION =========================== */
 .filters {
   display: flex;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 .filters li {
-  background-color: #F5F5FA;
+  background-color: #f5f5fa;
   padding: 8px 15px;
   margin-right: 20px;
   cursor: pointer;
   user-select: none;
   border-radius: 10px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   transition: all ease 0.2s;
 }
 
@@ -93,23 +102,26 @@ main {
 }
 
 .filters li.active {
-  background: #13A51B; 
+  background: #1e56a0;
   color: white;
 }
 
 .filters li.html:hover {
-  background-color: #E75927;
+  background-color: #e75927;
   color: #fff;
+  transform: scale(1.1);
 }
 
 .filters li.css:hover {
-  background-color: #288DEC;
+  background-color: #288dec;
   color: #fff;
+  transform: scale(1.1);
 }
 
 .filters li.js:hover {
-  background-color: #FBB93C;
+  background-color: #fbb93c;
   color: #fff;
+  transform: scale(1.1);
 }
 
 /* =========================== PROJECTS SECTION =========================== */
@@ -118,10 +130,11 @@ main {
   margin-bottom: 100px;
 }
 .projects .project {
-  background: grey;
+  background: #f6f6f6;
   width: calc(34% - 20px);
   margin-bottom: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   border-radius: 7px;
 }
 .projects .project img {
@@ -131,29 +144,30 @@ main {
   border-top-left-radius: 7px;
 }
 .projects .project .content {
-  background: white;
+  background: #f6f6f6;
   padding: 15px;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 
-.projects .project .icon{
+.projects .project .icon {
   margin-left: 5px;
   font-size: 22px;
+  transition: all ease 0.2s;
 }
 
-/* ******* */
-/* footer */
-/* ******* */
+.projects .project .icon:hover{
+  color: #1e56a0;
+}
+
+/* =========================== FOOTER SECTION =========================== */
 footer {
-  background: #eee;
+  background: #f6f6f6;
   padding: 30px 0;
   text-align: center;
 }
 
-/* ******* */
-/* About page */
-/* ******* */
+/* ---------------------------- ABOUT PAGE ---------------------------- */
 .about-page {
   padding: 100px 0;
 }
