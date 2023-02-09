@@ -1,0 +1,163 @@
+/* =========================== IMPORTANT =========================== */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500; 
+}
+
+/* =========================== COMMON CSS =========================== */
+body{
+  background-color: #F8F9FF;
+}
+
+a{
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+a:active {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* =========================== HEADER SECTION =========================== */
+header {
+  background: #F8F9FF;
+  padding: 10px 0;
+}
+header img {
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+header nav a {
+  margin-left: 30px;
+  background-color: #F5F5FA;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+header nav a i {
+  margin-right: 5px;
+}
+
+header .container nav a .icon{
+  position: relative;
+  top: 2px;
+}
+
+/* =========================== MAIN SECTION =========================== */
+main {
+  min-height: calc(100vh - 145px);
+}
+
+/* =========================== FILTER SECTION =========================== */
+.filters {
+  display: flex;
+  margin: 50px 0;
+}
+
+.filters li {
+  background-color: #F5F5FA;
+  padding: 8px 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  transition: all ease 0.2s;
+}
+
+.filters li:active {
+  opacity: 1;
+}
+
+.filters li.active {
+  background: #13A51B; 
+  color: white;
+}
+
+.filters li.html:hover {
+  background-color: #E75927;
+  color: #fff;
+}
+
+.filters li.css:hover {
+  background-color: #288DEC;
+  color: #fff;
+}
+
+.filters li.js:hover {
+  background-color: #FBB93C;
+  color: #fff;
+}
+
+/* =========================== PROJECTS SECTION =========================== */
+.projects {
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.projects .project {
+  background: grey;
+  width: calc(34% - 20px);
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 7px;
+}
+.projects .project img {
+  width: 100%;
+  display: block;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.projects .project .content {
+  background: white;
+  padding: 15px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.projects .project .icon{
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+/* ******* */
+/* footer */
+/* ******* */
+footer {
+  background: #eee;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* ******* */
+/* About page */
+/* ******* */
+.about-page {
+  padding: 100px 0;
+}
+.about-page h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
