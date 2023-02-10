@@ -55,7 +55,7 @@ header img {
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 header nav a {
-  margin-left: 30px;
+  margin-left: 5px;
   background-color: #f5f5fa;
   padding: 10px 20px;
   border-radius: 10px;
@@ -105,7 +105,25 @@ main {
 }
 
 .filters li.active {
-  background: #1e56a0;
+  background: #13A717;
+  color: white;
+}
+
+.filters li.html:hover,
+.filters li.html.active {
+  background: #EA6327;
+  color: white;
+}
+
+.filters li.css:hover,
+.filters li.css.active {
+  background: #2883EB;
+  color: white;
+}
+
+.filters li.js:hover,
+.filters li.js.active {
+  background: #FBC036;
   color: white;
 }
 
@@ -162,7 +180,7 @@ main {
 /* ---------------------------- Tablet Screen ---------------------------- */
 @media only screen and (max-width: 992px) {
   .projects {
-    padding: 0 10px;
+    padding: 0 10px 0 0;
   }
 }
 
@@ -183,7 +201,7 @@ main {
   }
   
   header nav a {
-    margin-left: 8px;
+    margin-left: 2px;
     font-size: 10px;
   }
 }
