@@ -104,6 +104,7 @@ main {
   opacity: 1;
 }
 
+.filters li:hover,
 .filters li.active {
   background: #13A717;
   color: white;
