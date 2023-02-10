@@ -19,49 +19,49 @@ const projects = [
     img: "1.png",
     codeUrl: "https://github.com/HumayunK01/foodapp",
     liveUrl: "https://humayunk01.github.io/foodapp/",
-    tags: ["html", "css"],
+    tags: ["html", "css"]
   },
   {
     name: "EdYoda Stories",
     img: "2.png",
     codeUrl: "https://github.com/HumayunK01/edyodastories2.0",
     liveUrl: "https://humayunk01.github.io/edyodastories2.0/",
-    tags: ["css"],
+    tags: ["css"]
   },
   {
     name: "Stunning Landing Page",
     img: "3.png",
     codeUrl: "https://github.com/HumayunK01/stunninglandingpage",
     liveUrl: "https://humayunk01.github.io/stunninglandingpage/",
-    tags: ["css"],
+    tags: ["css"]
   },
   {
     name: "Themes Switcher",
     img: "4.png",
     codeUrl: "https://github.com/HumayunK01/jsassignment1",
     liveUrl: "https://humayunk01.github.io/jsassignment1/",
-    tags: ["js"],
+    tags: ["js"]
   },
   {
     name: "Dark to Light Mode",
     img: "5.png",
     codeUrl: "https://github.com/HumayunK01/jshomework2",
     liveUrl: "https://humayunk01.github.io/jshomework2/",
-    tags: ["js"],
+    tags: ["js"]
   },
   {
     name: "Color Generator",
     img: "6.png",
     codeUrl: "https://github.com/HumayunK01/colorgenerator",
     liveUrl: "https://humayunk01.github.io/colorgenerator/",
-    tags: ["js"],
+    tags: ["js"]
   },
   {
     name: "Table Generator",
     img: "7.png",
     codeUrl: "https://github.com/HumayunK01/tablegenerator",
     liveUrl: "https://humayunk01.github.io/tablegenerator/",
-    tags: ["js"],
+    tags: ["js"]
   },
 ];
 

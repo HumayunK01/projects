@@ -112,12 +112,14 @@ main {
 /* =========================== PROJECTS SECTION =========================== */
 .projects {
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects .project {
   background: #f6f6f6;
   width: calc(34% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 13px;
+  margin-left: 13px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   border-radius: 7px;
