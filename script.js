@@ -19,20 +19,27 @@ const projects = [
     img: "1.png",
     codeUrl: "https://github.com/HumayunK01/foodapp",
     liveUrl: "https://humayunk01.github.io/foodapp/",
-    tags: ["html", "css"]
+    tags: ["html"]
   },
   {
     name: "EdYoda Stories",
     img: "2.png",
     codeUrl: "https://github.com/HumayunK01/edyodastories2.0",
     liveUrl: "https://humayunk01.github.io/edyodastories2.0/",
-    tags: ["html", "css"]
+    tags: ["html"]
   },
   {
     name: "Stunning Landing Page",
     img: "3.png",
     codeUrl: "https://github.com/HumayunK01/stunninglandingpage",
     liveUrl: "https://humayunk01.github.io/stunninglandingpage/",
+    tags: ["css"]
+  },
+  {
+    name: "NuuK WebApp",
+    img: "8.png",
+    codeUrl: "https://github.com/HumayunK01/nuuk",
+    liveUrl: "https://humayunk01.github.io/nuuk/",
     tags: ["css"]
   },
   {
@@ -61,6 +68,13 @@ const projects = [
     img: "7.png",
     codeUrl: "https://github.com/HumayunK01/tablegenerator",
     liveUrl: "https://humayunk01.github.io/tablegenerator/",
+    tags: ["js"]
+  },
+  {
+    name: "JavaScript Functions",
+    img: "9.png",
+    codeUrl: "https://github.com/HumayunK01/jsquiz1",
+    liveUrl: "https://humayunk01.github.io/jsquiz1/",
     tags: ["js"]
   },
 ];
