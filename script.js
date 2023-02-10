@@ -26,7 +26,7 @@ const projects = [
     img: "2.png",
     codeUrl: "https://github.com/HumayunK01/edyodastories2.0",
     liveUrl: "https://humayunk01.github.io/edyodastories2.0/",
-    tags: ["css"]
+    tags: ["html", "css"]
   },
   {
     name: "Stunning Landing Page",
