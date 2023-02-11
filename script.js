@@ -43,6 +43,13 @@ const projects = [
     tags: ["css"]
   },
   {
+    name: "Digital Clock",
+    img: "10.png",
+    codeUrl: "https://github.com/HumayunK01/clock",
+    liveUrl: "https://humayunk01.github.io/clock/",
+    tags: ["html","css","js"]
+  },
+  {
     name: "Themes Switcher",
     img: "4.png",
     codeUrl: "https://github.com/HumayunK01/jsassignment1",
@@ -77,7 +84,7 @@ const projects = [
     liveUrl: "https://humayunk01.github.io/jsquiz1/",
     tags: ["js"]
   },
-];
+]; 
 
 function renderProjects(tag) {
   let output = "";
