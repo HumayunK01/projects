@@ -43,10 +43,31 @@ const projects = [
     tags: ["css"]
   },
   {
+    name: "Shoplane Website",
+    img: "shoplane.png",
+    codeUrl: "https://github.com/HumayunK01/shopane",
+    liveUrl: "https://humayunk01.github.io/shopane/",
+    tags: ["html","css","js"]
+  },
+  {
+    name: "Calculator",
+    img: "calculator.png",
+    codeUrl: "https://github.com/HumayunK01/calculator",
+    liveUrl: "https://humayunk01.github.io/calculator/",
+    tags: ["html","css","js"]
+  },
+  {
     name: "Digital Clock",
     img: "10.png",
     codeUrl: "https://github.com/HumayunK01/clock",
     liveUrl: "https://humayunk01.github.io/clock/",
+    tags: ["html","css","js"]
+  },
+  {
+    name: "Analog Clock",
+    img: "analogclock.png",
+    codeUrl: "https://github.com/HumayunK01/analogclock",
+    liveUrl: "https://humayunk01.github.io/analogclock/",
     tags: ["html","css","js"]
   },
   {
