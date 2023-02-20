@@ -13,7 +13,7 @@
 
 /* =========================== COMMON CSS =========================== */
 body {
-  background: #d6e4f0;
+  background: #C8D8E4;
 }
 
 a {
@@ -69,7 +69,7 @@ header nav a .icon {
 }
 
 header nav a.active {
-  background: #1e56a0;
+  background: #2B6777;
   color: white;
 }
 
@@ -106,7 +106,7 @@ main {
 
 .filters li:hover,
 .filters li.active {
-  background: #13A717;
+  background: #2B6777;
   color: white;
 }
 
@@ -152,7 +152,8 @@ main {
 }
 
 .projects .project .content {
-  background: #f6f6f6;
+  background: #52AB98;
+  color: #f6f6f6;
   padding: 15px;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -162,10 +163,11 @@ main {
   margin-left: 5px;
   font-size: 22px;
   transition: all ease 0.2s;
+  color: #f6f6f6;
 }
 
 .projects .project .icon:hover {
-  color: #1e56a0;
+  color: #407584;
 }
 
 /* ---------------------------- ABOUT PAGE ---------------------------- */
