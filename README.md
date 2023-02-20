@@ -1,2 +1,2 @@
 Preveiw Of Portfolio
-![36944067-5aa3238813195e625fd392b1ff78c90d](https://user-images.githubusercontent.com/88980866/217794090-7d61840a-eaac-4b93-a028-9deb6919b25e.png)
+![37278459-f683795fe0d23159b1cffc62d802ff3c](https://user-images.githubusercontent.com/88980866/220184591-1088112d-3230-4a54-b743-8a520830b0a0.png)
