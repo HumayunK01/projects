@@ -99,11 +99,53 @@ const projects = [
     tags: ["js"]
   },
   {
-    name: "JavaScript Functions",
-    img: "9.png",
-    codeUrl: "https://github.com/HumayunK01/jsquiz1",
-    liveUrl: "https://humayunk01.github.io/jsquiz1/",
-    tags: ["js"]
+    name: "Hex Generator",
+    img: "hexgenerator.png",
+    codeUrl: "https://github.com/HumayunK01/HexGenerator",
+    liveUrl: "https://humayunk01.github.io/HexGenerator/",
+    tags: ["html","js"]
+  },
+  {
+    name: "Police VS Taxi",
+    img: "policevtaxi.png",
+    codeUrl: "https://github.com/HumayunK01/policeanimation",
+    liveUrl: "https://humayunk01.github.io/policeanimation/",
+    tags: ["css"]
+  },
+  {
+    name: "Notepad",
+    img: "notepad.png",
+    codeUrl: "https://github.com/HumayunK01/notepad",
+    liveUrl: "https://humayunk01.github.io/notepad/",
+    tags: ["css","js"]
+  },
+  {
+    name: "Todo List",
+    img: "todo.png",
+    codeUrl: "https://github.com/HumayunK01/todo",
+    liveUrl: "https://humayunk01.github.io/todo/",
+    tags: ["css","js"]
+  },
+  {
+    name: "BMI Calculator",
+    img: "bmi.png",
+    codeUrl: "https://github.com/HumayunK01/bmi",
+    liveUrl: "https://humayunk01.github.io/bmi/",
+    tags: ["css","js"]
+  },
+  {
+    name: "BitFuture Landing Page",
+    img: "bitfuture.png",
+    codeUrl: "https://github.com/HumayunK01/bitfuture",
+    liveUrl: "https://humayunk01.github.io/bitfuture/",
+    tags: ["html","css"]
+  },
+  {
+    name: "Contact Us",
+    img: "contact.png",
+    codeUrl: "https://github.com/HumayunK01/Contact-US",
+    liveUrl: "https://humayunk01.github.io/Contact-US/",
+    tags: ["html","css"]
   },
 ]; 
 
